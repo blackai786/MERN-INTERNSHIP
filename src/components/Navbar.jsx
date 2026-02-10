@@ -37,8 +37,32 @@ export const Navbar = () => {
                 Movies
               </Link>
             </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/fundemo1">
+                fundemo1
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/usestatedemo1">
+                usestatedemo1
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/usestatedemo2">
+                usestatedemo2
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/usestatedemo3">
+                usestatedemo3
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/employees">
+                employees
+              </Link>
+            </li>
             
-
           </ul>
         </div>
       </nav>

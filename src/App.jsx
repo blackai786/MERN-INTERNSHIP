@@ -39,6 +39,10 @@ import { Country } from './component/Country';
 import { DisplayInput } from './component/input/DisplayInput';
 import { PgUser } from './component/Forms/PgUser';
 import { LoginForm } from './component/Forms/LoginForm';
+import { Form4 } from './component/Forms/Form4';
+import { Form5 } from './component/Forms/Form5';
+import { Form6 } from './component/Forms/Form6';
+import { PasswordForm } from './component/Forms/PasswordForm';
 
 function App() {
   return (
@@ -76,6 +80,11 @@ function App() {
               <Route path="/displayinput" element={<DisplayInput/>}/>
               <Route path="/pguser" element={<PgUser/>}/>
               <Route path="/login" element={<LoginForm/>}/>
+              <Route path="/form4" element={<Form4/>}/>
+              <Route path="/form5" element={<Form5/>}/>
+              <Route path="/form6" element={<Form6/>}/>
+              <Route path="/passwordform" element={<PasswordForm/>}/>
+
             </Routes>
 
           </div>

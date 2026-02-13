@@ -6,7 +6,7 @@ export const PgUser = () => {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm();
+  } = useForm({mode :onchange});
   console.log("errors", errors);
 
   const submithandler = (data) => {

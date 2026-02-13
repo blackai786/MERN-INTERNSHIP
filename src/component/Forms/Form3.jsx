@@ -95,7 +95,7 @@ export const Form3 = () => {
                 type="button"
                 className="apply-btn"
                 onClick={() =>
-                  coupon === "SAVE10" ? setDiscount(10) : setDiscount(0)
+                  coupon === "SAVE100" ? setDiscount(100) : setDiscount(0)
                 }
               >
                 Apply

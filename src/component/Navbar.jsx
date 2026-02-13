@@ -68,16 +68,16 @@ export const Navbar = () => {
                 Demo10
               </Link> 
             </li> */}
-            <li class="nav-item active">
+            {/* <li class="nav-item active">
               <Link class="nav-link" to="/movies">
                 Movies
               </Link>
-            </li>
-            <li class="nav-item active">
+            </li> */}
+            {/* <li class="nav-item active">
               <Link class="nav-link" to="/shows">
                 Shows
               </Link>
-            </li>
+            </li> */}
             <li class="nav-item active">
               <Link class="nav-link" to="/iplteams">
                 IPL Teams
@@ -125,7 +125,7 @@ export const Navbar = () => {
             </li>
             <li class="nav-item active">
               <Link class="nav-link" to="/form3">
-                Ckeckout
+                Checkout
               </Link>
               </li>
               <li class="nav-item active">
@@ -146,6 +146,26 @@ export const Navbar = () => {
               <li class="nav-item active">
               <Link class="nav-link" to="/login">
                 Login Form
+              </Link>
+              </li>
+              <li class="nav-item active">
+              <Link class="nav-link" to="/form4">
+                Form4
+              </Link>
+              </li>
+              <li class="nav-item active">
+              <Link class="nav-link" to="/form5">
+                Form5
+              </Link>
+              </li>
+               <li class="nav-item active">
+              <Link class="nav-link" to="/form6">
+                Form6
+              </Link>
+              </li>
+              <li class="nav-item active">
+              <Link class="nav-link" to="/passwordform">
+                Password
               </Link>
               </li>
           </ul>

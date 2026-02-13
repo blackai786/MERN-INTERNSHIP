@@ -102,7 +102,7 @@ export const Form3 = () => {
               </button>
             </div>
 
-            <div className="product-box">🎧 1x Wireless Headphones - 5000</div>
+            <div className="product-box">1x Wireless Headphones - 5000</div>
           </div>
 
           <div className="button-row">

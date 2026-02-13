@@ -37,6 +37,8 @@ import { Form2 } from './component/Forms/Form2';
 import { Form3 } from './component/Forms/Form3';
 import { Country } from './component/Country';
 import { DisplayInput } from './component/input/DisplayInput';
+import { PgUser } from './component/Forms/PgUser';
+import { LoginForm } from './component/Forms/LoginForm';
 
 function App() {
   return (
@@ -72,6 +74,8 @@ function App() {
               <Route path="/form3" element={<Form3/>}/>
               <Route path="/country" element={<Country/>}/>
               <Route path="/displayinput" element={<DisplayInput/>}/>
+              <Route path="/pguser" element={<PgUser/>}/>
+              <Route path="/login" element={<LoginForm/>}/>
             </Routes>
 
           </div>

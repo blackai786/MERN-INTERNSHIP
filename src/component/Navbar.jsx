@@ -88,7 +88,7 @@ export const Navbar = () => {
                 Function
               </Link>
             </li>
-            <li class="nav-item active">
+            {/* <li class="nav-item active">
               <Link class="nav-link" to="/usestatedemo1">
                 UseState1
               </Link>
@@ -102,7 +102,7 @@ export const Navbar = () => {
               <Link class="nav-link" to="/usestatedemo3">
                 UseState3
               </Link>
-            </li>
+            </li> */}
             <li class="nav-item active">
               <Link class="nav-link" to="/leaderboard">
                 Leaderboard
@@ -138,6 +138,16 @@ export const Navbar = () => {
                 Display
               </Link>
             </li>
+            <li class="nav-item active">
+              <Link class="nav-link" to="/pguser">
+                PgUser
+              </Link>
+              </li>
+              <li class="nav-item active">
+              <Link class="nav-link" to="/login">
+                Login Form
+              </Link>
+              </li>
           </ul>
         </div>
       </nav>

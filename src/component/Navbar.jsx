@@ -8,9 +8,9 @@ export const Navbar = () => {
         <div style={{ color: "red", fontSize: "20px", fontStyle: "bold" }}>
           NETFLIX{" "}
         </div>
-        <Link class="nav-link" to="/">
+        {/* <Link class="nav-link" to="/">
           Home{" "}
-        </Link>
+        </Link> */}
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
@@ -83,11 +83,11 @@ export const Navbar = () => {
                 IPL Teams
               </Link>
             </li>
-            <li class="nav-item active">
+            {/* <li class="nav-item active">
               <Link class="nav-link" to="/functiondemo1">
                 Function
               </Link>
-            </li>
+            </li> */}
             {/* <li class="nav-item active">
               <Link class="nav-link" to="/usestatedemo1">
                 UseState1
@@ -113,42 +113,42 @@ export const Navbar = () => {
                 Employees
               </Link>
             </li>
-            <li class="nav-item active">
+            {/* <li class="nav-item active">
               <Link class="nav-link" to="/formdemo1">
                 Form1
               </Link>
-            </li>
-            <li class="nav-item active">
+            </li> */}
+            {/* <li class="nav-item active">
               <Link class="nav-link" to="/form2">
                 Player Form
               </Link>
-            </li>
+            </li> */}
             <li class="nav-item active">
               <Link class="nav-link" to="/form3">
                 Checkout
               </Link>
               </li>
-              <li class="nav-item active">
+              {/* <li class="nav-item active">
               <Link class="nav-link" to="/country">
                 Country
               </Link>
-            </li>
-            <li class="nav-item active">
+            </li> */}
+            {/* <li class="nav-item active">
               <Link class="nav-link" to="/displayinput">
                 Display
               </Link>
-            </li>
-            <li class="nav-item active">
+            </li> */}
+            {/* <li class="nav-item active">
               <Link class="nav-link" to="/pguser">
                 PgUser
               </Link>
-              </li>
-              <li class="nav-item active">
+              </li> */}
+              {/* <li class="nav-item active">
               <Link class="nav-link" to="/login">
                 Login Form
               </Link>
-              </li>
-              <li class="nav-item active">
+              </li> */}
+              {/* <li class="nav-item active">
               <Link class="nav-link" to="/form4">
                 Form4
               </Link>
@@ -157,7 +157,7 @@ export const Navbar = () => {
               <Link class="nav-link" to="/form5">
                 Form5
               </Link>
-              </li>
+              </li> */}
                <li class="nav-item active">
               <Link class="nav-link" to="/form6">
                 Form6
@@ -166,6 +166,11 @@ export const Navbar = () => {
               <li class="nav-item active">
               <Link class="nav-link" to="/passwordform">
                 Password
+              </Link>
+              </li>
+               <li class="nav-item active">
+              <Link class="nav-link" to="/apidemo1">
+                API 1
               </Link>
               </li>
           </ul>

@@ -40,7 +40,7 @@ export const ApiDemo1 = () => {
             </tr>
         </thead>
         <tbody>
-                    {
+            {
             userdata.map((user) => {
                 return <tr>
                     <td>{user.name}</td>

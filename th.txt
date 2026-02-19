@@ -1,0 +1,382 @@
+MERN :
+
+mongo db :data store
+express: middleware fw
+react js : frontend framework
+node js : backend framework
+
+php, jsp ser...
+MVC:
+
+story : facebook:
+php:
+frontend:php
+backend : php
+
+frontend: --> backend
+backend :--> frontend:
+
+x -func : php
+
+tight bonded:
+angular:
+
+frontend:
+ framework: react js
+backend:
+
+n tire arch
+
+React js --> node js
+
+
+node js:
+cmd :- node :
+https://nodejs.org/en/download
+
+vs code : --> install -->
+---->
+
+npm:node package manager:
+node_modules --> manage
+dist / build -> js
+
+
+d:
+  projects
+     MERN
+       frontend
+	  ctrl+l -->type cmd
+	  npm create vite
+		press y
+	project name:learning26
+	            : react
+                    : javascript
+	cd learning26
+	npm install	
+	code .  -->if this command not work   
+
+
+	open terminal
+	change profile to cmd :
+	npm run dev		
+
+--------------------------------------
+javascript:
+var dec
+string: function	
+array : map,filter,foreach
+json,json array,
+function create , callback function, arrow function
+Promise:
+
+
+class based component
+function based component
+
+react js : v16.x function component
+
+js :- arrow function, function
+
+src : components
+         HeaderComponent.jsx
+		   -->Load App.jsx --> check import statm...
+		FooterComponent.jsx
+			-->Clean app.jsx   
+		ContentComponent.jsx	
+			app.jsx -- >copy that to content..
+			load app.jsx	
+assets : please check it is avaialble.....
+	   -- > css
+	          -->header.css		
+footer : inline css
+contnent: inline css			  
+
+
+export default --> without {} import
+export const --> with {} import
+
+why className ??? not class ...
+
+array: 
+foreach <<-->> map
+
+
+for(let i=0;i<cars.length;i++){
+
+	console.log(cars[i])
+}
+
+{
+            cars.map((c)=>{
+                return <h1>{c}</h1>
+            })
+}
+
+
+{
+            cars.map((c)=>{
+                return 
+				<h1>{c}</h1>
+            })
+}
+
+{
+            cars.map((c)=>{
+                return (
+					<h1>{c}</h1>
+					)
+            })
+}
+
+
+react routing.....
+<a href="url">
+
+react-router-dom
+npm i react-router-dom
+
+<BrowserRouter> ?? it enables routing in react application  main.jsx..
+<Routes> : it will hold all route
+<Route> : it will create url and maintain element
+
+NetflixMovies.jsx -->url -->app.jsx
+NetflixShows.jsx -->url->app.jsx
+NetflixHome.jsx -->url -->app.jsx
+
+
+  -->Navbar.jsx --> bootstrap ..
+
+
+single page application -->react js angular..... page should not refresh..  
+
+Nested / Dynamic routing...
+
+url -->data
+
+-->404 page impl....
+-->watchComponent --> url reg --> app.js routes..
+--->shows --> hardcoded impl of watch/moviename
+-->movies --> array --> iterate ---> watch --> url..
+
+
+var x = ["amit",'sumit']
+console.log(x)
+
+//push
+var ans = x.push("raj") //return type number ->new len of an array
+console.log(ans)
+console.log(x)
+
+
+var y = ["parth","raj"]
+console.log(y)
+var ycopy = [...y,"ajay"]
+console.log(ycopy)
+
+
+
+react js hooks:
+
+hook is either componennt life cycle or builtin functions
+
+hooks: function based 
+all hookes either its predefine, thirdparth udf all name starts with use
+
+useState
+useEffect
+useRef
+useParams
+
+
+useState :single page application: react state --> refresh..
+
+----->DOM:document object model
+
+HTML -->js -->dynami content full dom update
+js --> DOM ->update -->dom object fully update
+
+DOM -->V-DOM ->process --> comp--algoo --> VDOM change --> og dom compare ---> changes --> og dom
+MONDAY in detaill doc--->
+
+useState
+
+
+react js component based arch:
+realation:
+parent component --> child componnet
+
+how to communicate bw components
+
+props :p --> c
+
+context :p -->c -->c --->c
+	 :
+redux : state management tool : 
+
+
+how to create reusable component in react js:
+
+parent --> child ---> ----> ---> no data
+
+ -->props drlling...
+
+
+ EMployees 
+   title,
+   compnay
+   array
+ EmployeeList
+    props
+
+	array 
+
+ SubEmployeeList:
+	props -->empty -->
+
+	drilling ...
+
+
+
+{
+	required:
+	{
+		value:true,
+		message:"Age is Required*"
+	}
+}
+{
+            required:
+			{
+                value:true,
+                message:"Age is Required*"
+            }
+}
+
+?. optional chaining..
+
+
+validation:
+1 form : --all validation:
+
+watch task:
+
+form --> password
+
+min 1 cap
+min 1 small
+len 8>
+special char
+1 digit
+
+<input type "password">...
+
+by default all print in black color
+-->when you start inserting password
+
+eg:Sa1_sahasusa
+
+<p>1 char cap<p>  --> it converts to green
+<p>1 char small<p>  -->green
+<p>1 char digit<p>  --> gren
+<p>1 char special<p>
+<p>8 cahr<p>
+promise: json array -- map filter...
+
+API CALLING:
+
+application prg interface
+
+frontend end : react  --> database connectivtiy
+	Java Object --> fetch no
+	Genric -->
+	URL :
+	website:
+	data data transfer : APIs
+
+	uber -->map : google map --> url ->api
+
+	ahmedabad weather :
+
+backend end : java,php
+
+producer api:
+consumer api:
+
+api : instruction: request method
+type:
+
+GET
+POST
+PUT
+DELETE
+
+backend:
+GET: database fetch --> frontend -->send --->
+POST: frontend [andorid  web framework] -->get ---> database 
+PUT:update:
+DELETE : 
+
+frontend:
+GET: database -->frontend display:
+POST  : form --data ---> 
+DELETE:
+UDPATE:
+
+data type: JSON
+-->xml -->JSON
+->SOAP -->rest
+
+
+browser can call only get api
+
+react js:
+js --> fetch function : apis
+3rd party
+axios
+
+npm i axios
+------------------------>
+
+componennt:
+function --> api call --> response -->
+check --> pending
+await -->
+console -->response
+response.data
+res.data.message
+res.data.data
+
+-->
+useSate message set --> 
+return print
+
+useSatet data -->
+print map-->
+
+task: table:
+
+https://node5.onrender.com/user/user/
+
+
+https://dummyjson.com/products : call : table print
+
+https://dummyjson.com/comments : calll table print...
+
+
+:frontend:
+POST --> data collect -->backend -->
+
+->frontend form --> name email age password..
+
+
+-->backend --> firstName userEmail userAge userPassword  --> null undfined..
+
+POST : https://node5.onrender.com/user/user/
+{
+	  "name": "Shyam",
+      "email": "Shaym3@gmail.com",
+      "password": "",
+      "age": 25,
+      "isActive": true,
+}

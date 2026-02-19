@@ -1,0 +1,86 @@
+28-01-2026
+1)create HeaderComponent with css
+2)create portfolio of your fav player/person.................. haivng 1 image
+
+
+how to change to port 
+
+mapdemo 6,7,8,9,10
+------------------
+table
+atleast table with image
+
+*min 1 table 6 column and 5 to 6 rows
+*min 4 condition styling apply
+
+**** if image is misisng in any row print there image is missin....
+extra 3 components: routing...
+
+
+task:
+Teams --> 10 teams 
+<li>csk
+<li>mi
+<li>rcb
+
+csk --> clik 
+
+-->TeamDetail
+/teamdetail/csk -->
+playing csk...
+
+
+reserch on vdom
+pros and cons of useing useState
+
+task:
+demonstrate props: using 3 components 
+create reusbale table using props:
+
+create 10 inouts in single compoents: like name age email password.......
+
+input task:
+create submit button : click onCLick --> function
+
+output section -->data display
+HINT: flag --.submitted
+
+
+depedent dropdown
+
+country:select
+state:
+json array design
+
+
+FORMS:
+react-hook-form -->form handling
+formik
+
+npm i react-hook-form
+
+3 form : 5 fileds
+
+12-02-2025
+2 form with validations
+
+
+
+18-02-2025
+Grid movie data
+
+detail button... -->Moive Detail componnet
+    on click --> in url send imdbid-->
+
+-->
+movieDetail -->fetch id from url using useParams()
+function movieDetail -->
+
+https://www.omdbapi.com/?apikey=apikey&i=useaprams id -->
+
+task2:
+take input type text --> moviename
+
+task3:ApiDemo3
+form -->  name,email,age,isActive,password  -->submit -->handleSubmit --> async submitHanlder(data) --> api --> post("url",data)
+Note: --> take register name as per api param.. api name -->register name
